@@ -1,5 +1,4 @@
-package com.api.gimart.model.users;
-
+package com.api.gimart.model.wallet;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -10,16 +9,13 @@ import lombok.ToString;
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
-public class UserListRequest {
+public class CoinTransListRequest {
 
 	int paction;
+	int pcoinid;
 	int puserid;
-	int proleid;
-	String pfullname;
-	String pusername;
-	String ppass;
-	String pmobile;
-	String pemail;
+	int preceiverid;
+	int pstatus;
 	int poffset;
 	int plimit;
 	String psearch;
